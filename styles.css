@@ -1,0 +1,78 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Container styling */
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo image styling */
+.freecodecamp-logo {
+  display: block;
+  max-width: 100px;
+  margin: 0 auto 20px;
+}
+
+/* Title styling */
+.title {
+  text-align: center;
+  color: #333;
+}
+
+/* Palindrome checker section styling */
+.palindrome-div {
+  margin-bottom: 20px;
+}
+
+/* Input and Button styling */
+.palindrome-input,
+.palindrome-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.palindrome-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.palindrome-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Results div hidden by default */
+.hidden {
+  display: none;
+}
+
+/* Palindrome definition styling */
+.palindrome-definition-div {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-left: 4px solid #007bff;
+}
+
+.palindrome-definition {
+  margin: 0;
+  font-style: italic;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+}
